@@ -1,0 +1,20 @@
+VAR:
+t ,i,j,k: INTEGER
+
+BEGIN
+
+j=2 ,
+WHILE (j<=length.t) DO
+     i=j-1
+  k←t[j]
+  END_WHILE
+  while ((i>0)&&(t[i]>k))
+  t[i+1]=t[i]
+  i=i-1;
+END_WHILE 
+t[i+1]=k←t;
+j=j+1;
+END
+   
+
+
